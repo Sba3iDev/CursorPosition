@@ -1,33 +1,27 @@
-# Cursor Position
+# 🎯 Cursor Position
 
-A simple Python application that displays and copies cursor coordinates in real-time.
+A simple Python desktop application that displays and copies your mouse cursor's coordinates in real-time using a clean GUI.
 
-## Features
+---
 
-- Real-time cursor position tracking (X and Y coordinates)
-- Copy coordinates to clipboard with spacebar
-- Clean and simple user interface
-- Confirmation message when coordinates are copied
+## ✨ Features
 
-## Requirements
+-   Real-time tracking of **X and Y cursor coordinates**
+-   Press `Spacebar` to **copy coordinates to clipboard**
+-   Minimal, clean user interface
+-   Shows a confirmation message when coordinates are copied
 
-- Python 3.x
-- Required packages:
-  - pyautogui
-  - pyperclip
-  - tkinter
+---
 
-## Installation
+## 📦 Requirements
 
-1. Clone or download this repository
-2. Install required packages:
+-   **Python 3.x**
+-   Required packages:
+    -   [`pyautogui`](https://pypi.org/project/pyautogui/)
+    -   [`pyperclip`](https://pypi.org/project/pyperclip/)
+
+Install dependencies:
 
 ```bash
-pip install pyautogui pyperclip
+pip install -r requirements.txt
 ```
-
-## Usage
-
-1. Run `app.py`
-2. The application will display current cursor coordinates in real-time
-3. Press [SPACE] to copy the current coordinates to clipboard in format (X,Y)
